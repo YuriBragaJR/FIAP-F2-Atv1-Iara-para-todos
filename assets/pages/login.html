@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup-login-areas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Área de Login</title>
+</head>
+<body>
+
+<!------------------------------------começo da caixa de cadastro -----------------------------------> 
+<section>
+        <h1>Faça seu login</h1>
+        <div class="box">
+        <form action="/autenticar" method="post">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required aria-required="true">
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required aria-required="true">
+            <div class="enter-cancel">
+            <button type="button"><a href="../../index.html">Cancelar</a></button>
+            <button type="submit">Entrar</button>
+            </div>
+        </form>
+        </div>
+        <p class="no-acc">Não tem uma conta? <a href="../pages/cadastro.html" class="login-link">Crie uma</a></p>
+        <p class="no-acc">Não lembra sua senha? <a href="../pages/alterar-senha.html" class="login-link">Alterar senha</a></p>
+    </section>
+
+    
+
+<!------------------------------------fima da caixa de cadastro ----------------------------------->
+
+
+</body>
+</html>
