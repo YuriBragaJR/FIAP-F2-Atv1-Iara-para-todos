@@ -5,14 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;    
+    
 }
+
 
 /* Variaveis */
 :root {
     --color-light: #ffffff;
     --color-darkgreen: #3f6e00e1;
     --color-fadedyellow: #a1941aa2;
-    --color-yellow: #ffe600da;
+    --color-yellow: #d6c01a; 
     --color-lightyellow: #ffe77c;
     --color-fadedred: #ff0000b2;
     --color-lightred: #f74438;
@@ -23,6 +25,10 @@
     --transition: .5s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-black);
     color: var(--color-lightyellow);
@@ -30,10 +36,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 h1, h2, h3 {
-    color:var(--color-yellow);
+    color:#fce148;
 }
 
 /* header ---------------------------*/
@@ -43,7 +50,7 @@ header, main {
 }
 
 header {
-    height: 50px;
+    height: 65px;
     margin: 0px;
     width: auto;
     padding: 10px;
@@ -53,9 +60,9 @@ header {
 }
 
 nav {
-    height: 30px;
+    height: 80%;
     width: 100%;
-    padding: 0px 15px;
+    padding: 0px 40px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -74,6 +81,7 @@ ul, li {
     gap: 15px;
     font-size: 100%;
     list-style: none;
+    align-items: center;
 }
 
 a {
@@ -103,7 +111,10 @@ main {
     width: auto;
     padding: 10px;
     justify-items: center;
+}
 
+.titulo1 {
+    margin: 70px 5px 5px 5px ;
 }
 
 .bem-vindo  {
@@ -117,34 +128,31 @@ main {
 }
 
 .sobre-nos  {
-    border: px solid;
-    padding: 15px;
-    margin: 20px;
+    border: 10px solid var(--color-yellow);
+    padding: 10px 20px;
+    margin: 135px 30px 5px 5px;
     width: 100%;
+    height: 100%;
     font-weight: 500;
     text-align: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: 0.5s;
 }
 
-h2 {
-    padding: 20px 10px;
-}
+
 
 .underline {
-    border: 1px solid;
+    border: 5px solid;
     width: 100%;
-    margin-top: 15px;
-}
-
-aside {
-    border: 1px solid;
-    height: 150px;
-    padding: 15px;
-    margin: 5px;
-    width: 100%;
+    margin: 15px 10px;
+    color: var(--color-yellow);
+    border-radius: 20px;
+    
 }
 
 .game-cards {
-
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -196,6 +204,63 @@ aside {
 }
 
 /*fim main---------------------------*/
+
+
+/*top-info pagina de lista de jogos-----------*/
+.hero-content {
+    display: flex;
+}
+
+.hero-section {
+    border: px solid;
+    margin: 30px 5px 5px 5px ;
+    justify-items: center;
+    justify-content: center;
+}
+
+.top-info {
+    border: px solid;
+    display: flex;
+    margin: 70px 20px;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+
+.linha-vertical {
+    border: 5px solid;
+    height: 100%;
+    color: var(--color-yellow);
+    border-radius: 20px;
+}
+
+.text-info {
+    border: px solid;
+    width: 83%;
+    justify-content: center;
+}
+
+.btn {
+    border: px solid;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin: 5%;
+    color: #000000;
+    font-weight: 700;
+}
+
+.btn-content  {
+    justify-content: center;
+    width: 35%;
+    border-radius: 10px;
+    background-color: var(--color-yellow);
+    
+}
+
+/*top-info pagina de lista de jogos-----------*/
+
+
 
 /*cards da pagina lista de jogos----------------------------------*/
 

@@ -41,6 +41,7 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     
+    
 }
 
 /* Estilo dos títulos */
@@ -49,6 +50,7 @@ h1 {
     color: var(--color-yellow); 
     margin: 50px 0px 10px;
     padding: 0px 5px 15px;
+    
 }
 
 h3 {
@@ -63,6 +65,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #000000;
 }
 
 .box {
