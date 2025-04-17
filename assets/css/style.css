@@ -336,4 +336,8 @@ footer {
     .logo-iaragames-footer {
         width: 10rem;
     }
+
+    .titulo-jogo {
+        font-size: 1.6rem;
+    }
 }
