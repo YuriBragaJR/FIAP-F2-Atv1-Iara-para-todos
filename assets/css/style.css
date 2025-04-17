@@ -46,7 +46,7 @@ h1, h2, h3 {
 /* header ---------------------------*/
 
 header, main {
-    margin:30px 15%;
+    margin:30px 10%;
 }
 
 header {
@@ -97,7 +97,8 @@ a {
     border-radius: 1px 5px 1px 5px ;
 }
 
-.fa-ellipsis-vertical {font-size: 27px;
+.fa-ellipsis-vertical {
+    font-size: 27px;
 }
 
 /* fim header ------------------------------*/
@@ -115,14 +116,15 @@ main {
 
 .titulo1 {
     margin: 70px 5px 5px 5px ;
+    border: 1px solid;
 }
 
-.bem-vindo  {
+.text-top  {
     border: px solid;
-    height: 80px;
+    height: 50%;
     padding: 15px;
     margin: 10px;
-    width: 100%;
+    width: 65%;
     font-weight: 500;
     text-align: center;
 }
@@ -140,8 +142,6 @@ main {
     overflow: hidden;
     transition: 0.5s;
 }
-
-
 
 .underline {
     border: 5px solid;
@@ -279,3 +279,19 @@ footer {
 }
 
 /*fim footer-------------------------*/
+
+
+
+@media (max-width: 395px) {
+    .titulo1 {
+    font-size: 25px;
+    }
+
+    .text-top {
+        width: 90%;
+    }
+
+    .sobre-nos {
+        width: 400px;
+    }
+}
