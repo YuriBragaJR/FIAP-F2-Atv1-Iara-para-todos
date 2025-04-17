@@ -282,7 +282,7 @@ footer {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .titulo1 {
     font-size: 25px;
     }
