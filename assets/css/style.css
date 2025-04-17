@@ -314,6 +314,10 @@ footer {
         
     }
 
+    .sobre-nos {
+        width: 450px;
+    }
+
     h1 {
         color:#fce148;
         font-size: 2rem;
@@ -339,5 +343,13 @@ footer {
 
     .titulo-jogo {
         font-size: 1.6rem;
+    }
+
+    ul, li {
+        visibility: hidden;
+    }
+
+    nav {
+        padding: 0px 30%;
     }
 }
