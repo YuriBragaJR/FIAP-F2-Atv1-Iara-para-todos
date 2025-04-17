@@ -27,6 +27,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
@@ -97,9 +98,7 @@ a {
     border-radius: 1px 5px 1px 5px ;
 }
 
-.fa-ellipsis-vertical {
-    font-size: 27px;
-}
+
 
 /* fim header ------------------------------*/
 
