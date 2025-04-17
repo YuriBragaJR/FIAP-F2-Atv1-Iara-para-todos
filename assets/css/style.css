@@ -397,6 +397,7 @@ footer {
         width: 155px;
         margin: 0px;
         padding: 0px;
+        transition: height 1s;
         .linha-barra {
             width: 160px;
         }
@@ -407,7 +408,7 @@ footer {
             height: 50px;
             width: 150px;
         }
-        transition: height 0.5s;
+        
         
     }
 
