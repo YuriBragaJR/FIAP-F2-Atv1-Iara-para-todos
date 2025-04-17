@@ -307,6 +307,7 @@ footer {
 @media (max-width: 768px) {
     .text-top {
     width: 400px;
+    padding: 15px 68px;
     }
 
     .cards {
@@ -361,6 +362,89 @@ footer {
     header {
         display: none;
     }
+
+    main {
+        margin: 30px 6% 0px 102px;
+    }
+    
+
+    .icone-barras {
+    font-size: 30px;
+    }
+
+    .titulo1 {
+    margin: 18px 5px 5px 5px;
+    }
+
+    .menu-barras {
+        border: px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        height: 50px;
+        width: 120px;
+        position: absolute;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        justify-items: start;
+        overflow: hidden;
+        transition: 0.5s ease;
+    }
+
+    .menu-barras:hover {
+        background: linear-gradient(180deg,rgba(214, 192, 26, 0) 0%, rgba(216, 172, 23, 0.3) 20%, rgba(216, 172, 23, 0.3) 30%, rgba(220, 100, 1, 0.8) 50%, rgba(220, 100, 19, 1) 60%, rgba(222, 122, 16, 1) 90%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        height: 210px;
+        width: 120px;
+        position: absolute;
+        border-radius: 0px 0px 5px 5px ;
+        justify-items: start;
+        transition: 0.5s ease;
+
+    }
+
+    .icone-container {
+        padding: 3px 10px;
+    }
+
+    .nav-item {
+        margin: 5px;
+        border: px solid;
+        justify-content: center;
+
+    }
+
+    .logo-iara {
+        background: linear-gradient(180deg,rgba(214, 192, 26, 0.6) 0%, rgba(216, 172, 23, 0.7) 28%, rgba(220, 141, 19, 1) 66%, rgba(222, 122, 16, 1) 100%);
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-nav {
+        border: 1px solid;
+    }
+
+    .logo-iaragames {
+        width: 50%;
+        height: 50%;
+
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
 /*
     .logo-barra {
         display: flex;
@@ -425,21 +509,3 @@ linear-gradient(0deg,rgba(222, 122, 16, 0.6) 0%, rgba(214, 192, 26, 0.6) 94%);
         
     }
 }*/
-
-.menu-barras {
-    display: flex;
-    border: 1px solid;
-}
-
-.logo-iara {
-    border: 1px solid;
-}
-
-.nav-menu {
-    border: 1px solid;
-}
-
-.logo-iaragames {
-    width: 90%;
-    height: 90%;
-}
