@@ -391,7 +391,7 @@ footer {
         position: absolute;
         }
 
-    .menu-barra:active {
+    .menu-barra:hover {
         background: linear-gradient(0deg,rgba(222, 122, 40, 100) 0%, rgba(214, 192, 40, 0.8) 94%);
         height: 240px;
         width: 155px;
