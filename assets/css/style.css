@@ -39,7 +39,7 @@ body {
     font-size: 2rem;
 }
 
-.menu-barras, .logo-barra {
+.menu-barras, .logo-iara {
     display: none;
 }
 
@@ -307,7 +307,9 @@ footer {
 @media (max-width: 768px) {
     .text-top {
     width: 400px;
-    padding: 15px 68px;
+    padding: 15px 70px;
+    font-size: 2rem;
+    text-align: left;
     }
 
     .cards {
@@ -317,11 +319,13 @@ footer {
     }
 
     .underline { 
-        margin: 15px 10px;
+        margin: 15px 5px;
     }
 
     .sobre-nos {
         width: 380px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;;
     }
 
     h1 {
@@ -349,6 +353,7 @@ footer {
 
     .titulo-jogo {
         font-size: 1.6rem;
+        
     }
 
     .linha {
@@ -364,7 +369,7 @@ footer {
     }
 
     main {
-        margin: 30px 6% 0px 102px;
+        margin: 30px 6% 0px 100px;
     }
     
 
@@ -373,7 +378,10 @@ footer {
     }
 
     .titulo1 {
-    margin: 18px 5px 5px 5px;
+        font-size: 1.6rem;
+        margin: 20px 50px 5px 5px;
+        text-align: left;
+
     }
 
     .menu-barras {
