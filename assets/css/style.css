@@ -41,6 +41,13 @@ body {
 
 }
 
+
+.menu-barra, .logo-barra {
+    display: none;
+}
+
+
+
 h1 {
     color:#fce148;
     font-size: 2.5rem;
@@ -67,6 +74,7 @@ p {
 header, main {
     margin:30px 10%;
     
+    
 }
 
 header {
@@ -77,6 +85,7 @@ header {
     justify-items: center;
     background: linear-gradient(0deg,rgba(214, 192, 26, 0.6) 0%, rgba(222, 122, 16, 0.6) 94%);
     color: white;
+    display: flex;
 }
 
 nav {
@@ -345,11 +354,66 @@ footer {
         font-size: 1.6rem;
     }
 
-    ul, li {
-        visibility: hidden;
+    .linha {
+        visibility:hidden; 
     }
 
     nav {
         padding: 0px 30%;
     }
-}
+
+    header {
+        display: none;
+    }
+
+    .logo-barra {
+        display: flex;
+        width: 230px;
+    }
+    .fundo-logo {
+        background: linear-gradient(0deg,rgba(214, 192, 26, 0.6) 0%, rgba(222, 122, 16, 0.6) 94%);
+    }
+
+
+    .menu-barra {
+        background: linear-gradient(0deg,rgba(222, 122, 16, 0.6) 0%, rgba(214, 192, 26, 0.6) 94%);
+        height: 52px;
+        width: 52px;
+        border-radius: 0px 0px 3px 0px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        transition: height 0.5 ease;
+        display: flex;
+        position: absolute;
+        }
+
+    .menu-barra:hover {
+        background: linear-gradient(0deg,rgba(222, 122, 16, 0.7) 0%, rgba(214, 192, 26, 0.7) 94%);
+        height: 260px;
+        width: 155px;
+        margin: 0px;
+        padding: 0px;
+        .linha-barra {
+            width: 160px;
+        }
+        .fa-bars {
+            display: none;
+        }
+        .li-barra {
+            height: 50px;
+            width: 150px;
+        }
+        transition: height 0.5s;
+        
+    }
+
+    .ul-barra {
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+    }
+
+    .fa-bars {
+        font-size: 2.7rem;
+    }
