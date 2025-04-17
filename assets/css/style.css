@@ -99,7 +99,7 @@ nav {
 ul, li {
     display: flex;
     gap: 15px;
-    font-size: 100%;
+    font-size: 1.6rem;
     list-style: none;
     align-items: center;
 }
@@ -208,6 +208,7 @@ main {
 .titulo-jogo {
     color: var(--color-black);
     font-weight: 700;
+    padding: 5px 5px;
 }
 
 .link-lista {
@@ -319,4 +320,22 @@ footer {
         
     }
 
+    h1 {
+        color:#fce148;
+        font-size: 2rem;
+    }
+    
+    h2 {
+        color:#fce148;
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        color:#fce148;
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
 }
