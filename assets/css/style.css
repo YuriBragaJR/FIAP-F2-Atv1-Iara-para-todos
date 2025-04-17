@@ -81,24 +81,27 @@ header {
     height: 65px;
     margin: 0px;
     width: auto;
-    padding: 10px;
+    padding: 10px 40px;
     justify-items: center;
     background: linear-gradient(0deg,rgba(214, 192, 26, 0.6) 0%, rgba(222, 122, 16, 0.6) 94%);
     color: white;
     display: flex;
+    gap: 35%;
 }
 
 nav {
     height: 80%;
     width: 100%;
-    padding: 0px 40px;
+
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+
 }
 
 .logo-iaragames {
     height: 100%;
+    padding: 0px 0px 0px 50px;
 }
 
 
@@ -388,9 +391,9 @@ footer {
         position: absolute;
         }
 
-    .menu-barra:hover {
-        background: linear-gradient(0deg,rgba(222, 122, 16, 0.7) 0%, rgba(214, 192, 26, 0.7) 94%);
-        height: 260px;
+    .menu-barra:active {
+        background: linear-gradient(0deg,rgba(222, 122, 40, 100) 0%, rgba(214, 192, 40, 0.8) 94%);
+        height: 240px;
         width: 155px;
         margin: 0px;
         padding: 0px;
@@ -417,3 +420,4 @@ footer {
     .fa-bars {
         font-size: 2.7rem;
     }
+}
