@@ -41,10 +41,26 @@ body {
 
 }
 
-h1, h2, h3 {
+h1 {
     color:#fce148;
-    
+    font-size: 2.5rem;
 }
+
+h2 {
+    color:#fce148;
+    font-size: 2.1rem;
+}
+
+h3 {
+    color:#fce148;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+
 
 /* header ---------------------------*/
 
@@ -200,7 +216,7 @@ main {
 }
 
 .icon-sociais {
-    font-size: 40px;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     gap:30px ;
@@ -293,17 +309,14 @@ footer {
 
 
 @media (max-width: 768px) {
-    .titulo1 {
-    font-size: 2.5rem;
-    }
-
     .text-top {
-        width: 90%;
+    width: 400px;
     }
 
-    .sobre-nos {
-        width: 370px;
-        font-size: 1.6rem;
+    .cards {
+        width: 100%;
+        height: 100%;
         
     }
+
 }
