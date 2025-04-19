@@ -5,13 +5,12 @@
     margin: 0;
     padding: 0;
     text-decoration: none; 
-    color: white; 
 }
 
 /* Variaveis */
 :root {
     --color-light: #ffffff;
-    --color-darkgreen: #3f6e00e1;
+    --color-darkgreen: #157c00;
     --color-fadedyellow: #a1941aa2;
     --color-yellow: #ffe600da;
     --color-lightyellow: #ffe77c;
@@ -26,14 +25,13 @@
 
 body {
     background-color: var(--color-black);
-    color: var(--color-lightyellow);
+    color: var(--color-black);
     background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.75) 24%, rgba(255, 255, 255, 0) 100%), url(../images/iaragames-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-/* Estilo do formulário */
 form {
     background:  linear-gradient(0deg,rgba(214, 192, 26, 1) 13%, rgba(222, 122, 16, 1) 94%);
     border-radius: 8px;
@@ -44,28 +42,29 @@ form {
     
 }
 
-/* Estilo dos títulos */
 h1 {
     text-align: center;
-    color: var(--color-yellow); 
     margin: 50px 0px 10px;
     padding: 0px 5px 15px;
+    color: var(--color-yellow);
     
 }
 
 h3 {
     text-align: center;
-    color: var(--color-cardfadein); 
     margin: 80px 0px 10px;
     padding: 0px 5px 15px;
 }
 
-/* Estilo dos rótulos */
+a{
+    color: var(--color-light);
+}
+
+
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #000000;
 }
 
 .box {
@@ -75,7 +74,7 @@ label {
     
 }
 
-/* Estilo dos campos de entrada */
+
 input {
     width: calc(100% - 20px);
     padding: 10px;
@@ -83,17 +82,16 @@ input {
     border: 1px solid var(--color-black);
     border-radius: 4px;
     background-color: #f1f8f6;
-    color: #000000;
 }
 
-/* Cor no foco dos campos */
+
 input:focus {
     outline: none;
     border-color: #ff7300; 
     box-shadow: 0 0 5px var;
 }
 
-/* Estilo do botão */
+
 button {
     width: 100%;
     background-color: var(--color-black); 
@@ -102,21 +100,17 @@ button {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: var(--transition);
     padding: 10px 15px;
     margin: 5px;
     width: 136px;
     cursor: pointer;
+
 }
 
 button:hover {
     background-color: var(--color-darkgreen);
-    transition: 0.5s;
-}
-
-.enter-cancel {
-    display: flex;
-    justify-content: space-between;
+    transition: var(--transition);
 }
 
 .no-acc {
@@ -128,5 +122,10 @@ button:hover {
     text-align: center;
     text-decoration: underline;
     color: #007be5;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
 }
 

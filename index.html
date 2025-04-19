@@ -3,184 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./assets/css/style.css">
-    
     <title>Iara Games</title>
 </head>
 <body>
-
-    <!---------------------------------------------- começo header -------------------------------------------------->
     <header>
-        
-        <nav>
+        <nav aria-label="Navegação principal">
             <img class="logo-iaragames" src="./assets/images/logoiara.png" alt="Logo da Iara Games">
             <ul>
                 <li>
-                    <a href="./assets/pages/lista-de-jogos.html">Jogos</a>
+                    <a href="./assets/pages/lista-de-jogos.html" aria-label="Lista de jogos disponíveis na Iara Games">Jogos</a>
                 </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="#scroll" >Sobre</a>
-                </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="#">Contato  </a>
-                </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="./assets/pages/login.html">Login</a>
-                </li>
-                    
                 <li class="linha"></li>
                 <li>
-                    <a href="./assets/pages/cadastro.html">Cadastre-se</a>
+                    <a href="#scroll" aria-label="Seção sobre nós">Sobre</a>
                 </li>
-                
+                <li class="linha"></li>
+                <li>
+                    <a href="./assets/pages/contato.html" aria-label="Entre em contato com a Iara Games">Contato</a>
+                </li>
+                <li class="linha"></li>
+                <li>
+                    <a href="./assets/pages/login.html" aria-label="Faça login na plataforma Iara Games">Login</a>
+                </li>
+                <li class="linha"></li>
+                <li>
+                    <a href="./assets/pages/cadastro.html" aria-label="Cadastre-se na plataforma Iara Games">Cadastre-se</a>
+                </li>
             </ul>
         </nav>        
     </header>
 
-    
-
-    <!------------------------------------------------ fim header ------------------------------------------------->    
-    
-    <!------------------------------------ nav com menu de barras -----------------------------------
-
-    <div class="div-barra">
-        <table class="menu-barra">
-            <div class="fundo-logo">
-                <img class="logo-barra" src="./assets/images/logoiara.png" alt="Logo da Iara Games">
-            </div>
-                <tbody class="ul-barra">
-
-                    <div class="li-barra">
-                        <td>
-                            <i class="fa-solid fa-bars"></i>
-                        </td>
-
-                    </div>
-                    
-                    <tr class="li-barra">
-                        <td>
-                            <a href="./assets/pages/lista-de-jogos.html">Jogos</a>
-                        </td>
-
-                    </tr>
-                    
-                    <tr class="li-barra">
-                        <td>
-                            <a href="#scroll" >Sobre</a>
-                        </td>
-                    </tr>
-
-                    <tr class="li-barra">
-                        <td>
-                            <a href="#">Contato  </a>
-                        </td>
-                    </tr>
-
-                    <tr class="li-barra">
-                        <td>
-                            <a href="./assets/pages/login.html">Login</a>
-                        </td>
-                    </tr>
-
-
-                    <tr class="li-barra">
-                        <td>
-                            <a href="./assets/pages/cadastro.html">Cadastre-se</a>
-                        </td>
-                    </tr>
-            </tbody>
-        </table>
-    </div>
-
-    ------------------------------------nav com menu de barras ------------------------------------>
-
-
-        <div class="menu-barras">
+    <div class="menu-barras" aria-label="Menu responsivo">
         <div class="icone-container">
-            <div class="icone-barras">
+            <div class="icone-barras" aria-label="Abrir menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-            <div class="menu -nav">
-                
-                <li class="nav-item">
-                    <a href="./assets/pages/lista-de-jogos.html">Jogos</a>
-                </li>               
-                
-                <li class="nav-item">
-                    <a href="#scroll" >Sobre</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="#">Contato  </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="./assets/pages/login.html">Login</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="./assets/pages/cadastro.html">Cadastre-se</a>
-                </li>
+        <div class="menu-nav">               
+            <li class="nav-item">
+                <a class="opção" href="./assets/pages/lista-de-jogos.html" aria-label="Navegar para a lista completa de jogos">Jogos</a>
+            </li>               
+            <li class="nav-item">
+                <a class="opção" href="#scroll" aria-label="Ir para a seção Sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="opção" href="./assets/pages/contato.html" aria-label="Entrar em contato com a Iara Games">Contato</a>
+            </li>
+            <li class="nav-item">
+                <a class="opção" href="./assets/pages/login.html" aria-label="Acessar a página de login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="opção" href="./assets/pages/cadastro.html" aria-label="Acessar a página de cadastro">Cadastre-se</a>
+            </li>
         </div>  
+    </div>
 
-        </div>
+    <div class="logo-iara">
+        <img class="logo-iaragames" src="./assets/images/logoiara.png" alt="Logo da Iara Games">
+    </div>
 
-        <div class="logo-iara">
-                <img class="logo-iaragames" src="./assets/images/logoiara.png" alt="Logo da Iara Games">
-        </div>
-
-
-    
-
-
-
-
-    <!------------------------------------------------ começo main ------------------------------------------------>
     <main>
         <h1 class="titulo1">Bem vindos á Iara Games!</h1>
-        <section class="text-top">
+        <section class="text-top" aria-label="Introdução à Iara Games">
             <p>Uma desenvolvedora brasileira apaixonada por criar experiências únicas. Aqui, cada clique é uma passagem para universos surpreendentes. Você está pronto?</p>
         </section>
 
         <div class="corte-lateral">
-            <div class="underline">
+            <div class="underline" aria-hidden="true">
                 <p></p>
             </div>
 
-                <div class="game-cards">
-
-                
-                <div class="cards">
-                    <img class="game-img" src="./assets/images/1ChronoTeia/chronochars2 (2).jpg" alt="">
-                    <p class="titulo-jogo">ChronoTeia</p>
-                </div>
-
-                <div class="cards">
-                    <img class="game-img" src="./assets/images/2Horizontes-Perdidos/horizonteimg2(4).png" alt="">
-                    <p class="titulo-jogo">Horizontes Perdidos</p>
-                </div>
-
-                <div class="cards">
-                    <img class="game-img" src="./assets/images/4Lendas-de-Estrelarium/lendaschar2.jpg" alt="">
-                    <p class="titulo-jogo">Lendas de Estrelarium</p>
-                </div>
+            <div class="game-cards" aria-label="Lista de jogos em destaque">
+                <a href="./assets/pages/1ChronoTeiaGLT.html" aria-label="Saiba mais sobre o jogo ChronoTeia">
+                    <div class="cards">
+                        <img class="game-img" src="./assets/images/1ChronoTeia/chronochars2 (2).jpg" alt="Imagem do jogo ChronoTeia">
+                        <p class="titulo-jogo">ChronoTeia</p>
+                    </div>
+                </a>
+            
+                <a href="./assets/pages/2HorizontesPerdidos.html" aria-label="Saiba mais sobre o jogo Horizontes Perdidos">
+                    <div class="cards">
+                        <img class="game-img" src="./assets/images/2Horizontes-Perdidos/horizonteimg2(4).png" alt="Imagem do jogo Horizontes Perdidos">
+                        <p class="titulo-jogo">Horizontes Perdidos</p>
+                    </div>
+                </a>
+            
+                <a href="./assets/pages/4LendasEstrelarium.html" aria-label="Saiba mais sobre o jogo Lendas de Estrelarium">
+                    <div class="cards">
+                        <img class="game-img" src="./assets/images/4Lendas-de-Estrelarium/lendaschar2.jpg" alt="Imagem do jogo Lendas de Estrelarium">
+                        <p class="titulo-jogo">Lendas de Estrelarium</p>
+                    </div>
+                </a>
             </div>
 
-            <div class="underline">
+            <div class="underline" aria-hidden="true">
                 <p></p>
             </div>
         </div>
-        <p class="link-lista-p">Veja a lista de jogos completa clicando <a class="link-lista" href="./assets/pages/lista-de-jogos.html">aqui.</a></p>
+        <p class="link-lista-p">Veja a lista de jogos completa clicando <a class="link-lista" href="./assets/pages/lista-de-jogos.html" aria-label="Veja a lista completa de jogos da Iara Games">aqui.</a></p>
 
-        <section class="sobre-nos">
-
-            <h2 aria-label="sobre nós" id="scroll">Sobre Nós</h2>
-
+        <section class="sobre-nos" aria-label="Seção sobre nós">
+            <h2 id="scroll">Sobre Nós</h2>
             <h3>Valorizando o Talento dos Desenvolvedores Brasileiros.</h3>
             <br>
             <p>
@@ -190,28 +115,24 @@
         </section>
     </main>
 
-    <!-------------------------------------------------- fim main -------------------------------------------------->
-
-    <!------------------------------------------------ começo footer ------------------------------------------------>
     <footer>
-
         <p>Siga-nos nas redes sociais</p>
 
-        <div class="icon-sociais">
-            <a target="_blank" href="https://x.com/" aria-label="Página do Twitter da Iara Games">
+        <div class="icon-sociais" aria-label="Links para redes sociais">
+            <a target="_blank" href="https://x.com/" aria-label="Página oficial do Twitter da Iara Games">
                 <i class="fa-brands fa-square-x-twitter" id="rede-social"></i>
             </a>
             
-            <a target="_blank" href="https://instagram.com/" aria-label="Página do Instagram da Iara Games">
-            <i class="fa-brands fa-square-instagram" id="rede-social"></i></a>
+            <a target="_blank" href="https://instagram.com/" aria-label="Página oficial do Instagram da Iara Games">
+                <i class="fa-brands fa-square-instagram" id="rede-social"></i>
+            </a>
 
-            <a target="_blank" href="https://youtube.com/" aria-label="Página do YouTube da Iara Games">
-            <i class="fa-brands fa-square-youtube" id="rede-social"></i></a>
+            <a target="_blank" href="https://youtube.com/" aria-label="Página oficial do YouTube da Iara Games">
+                <i class="fa-brands fa-square-youtube" id="rede-social"></i>
+            </a>
         </div>
-        <img class="logo-iaragames-footer" src="./assets/images/IARA GAMES.png" alt="Logo da Iara Games do rodapé">
+        <img class="logo-iaragames-footer" src="./assets/images/IARA GAMES.png" alt="Logo da Iara Games no rodapé">
         <p>&copy; 2025 Iara Games. Todos os direitos reservados.</p>
     </footer>
-
-    <!------------------------------------------------- fim footer ------------------------------------------------->
 </body>
 </html>

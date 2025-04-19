@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/signup-login-areas.css">
+    <link rel="stylesheet" href="../css/formularios.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
     <title>Redefinição de Senha</title>
-
 </head>
 <body>
-    <!------------------------------------começo da caixa de alterar senha -----------------------------------> 
-    <section class="aletar-senha" id="hero">
-        
-            <h1>Redefinição de Senha</h1>
-            <h3>Insira seu e-mail para receber as instruções.</h3>
-            <div class="box">
-            <form action="/send-reset-link" method="POST">
-                <input type="email" name="email" placeholder="Digite seu e-mail" required>
-                <button type="button"><a href="../../index.html">Cancelar</a></button>
-                <button type="submit">Enviar</button>
+    
+    <section class="aletar-senha" id="hero" aria-label="Formulário para redefinição de senha">
+        <h1>Redefinição de Senha</h1>
+        <h3>Insira seu e-mail para receber as instruções.</h3>
+        <div class="box">
+            <form action="/send-reset-link" method="POST" aria-label="Envie seu e-mail para redefinir a senha">
+                <!-- Campo de e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required aria-required="true" aria-label="Digite seu endereço de e-mail">
+                
+                <!-- Botões -->
+                <div>
+                    <button type="button" aria-label="Cancelar e voltar para a página inicial">
+                        <a href="../../index.html">Cancelar</a>
+                    </button>
+                    <button type="submit" aria-label="Enviar link para redefinição de senha">Enviar</button>
+                </div>
             </form>
         </div>
     </section>
-    <!------------------------------------ fim da caixa de alterar senha -----------------------------------> 
+    
 </body>
 </html>
