@@ -21,6 +21,7 @@
     --color-black: #000000;
     --color-yellowcard: #ffd000a8;
     --color-cardfadein: #ffd257;
+    --color-fadedorange: #c74900;
     --transition: 0.5s;
 }
 
@@ -32,11 +33,59 @@ html {
 body {
     background-color: var(--color-black);
     color: var(--color-lightyellow);
-    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.60) 24%, rgba(255, 255, 255, 0) 100%), url(../images/iaragames-fundo.jpg);
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0) 24%, rgba(255, 255, 255, 0) 100%), url(../images/iaragames-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 2rem;
+}
+
+#ChronoTeia {
+    background-color: var(--color-black);
+    background-image: url(../images/1ChronoTeia/img-fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Horizontes-Perdidos {
+    background-color: var(--color-black);
+    background-image: url(../images/2Horizontes-Perdidos/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#EcosdoAbismo {
+    background-color: var(--color-black);
+    background-image: url(../images/3Ecos-do-Abismo/ecoimg\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#LendasEstrelarium {
+    background-color: var(--color-black);
+    background-image: url(../images/4Lendas-de-Estrelarium/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#SenhosdeNeon {
+    background-color: var(--color-black);
+    background-image: url(../images/5Sonhos-de-neon/fundo-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#ReinoCinzas {
+    background-color: var(--color-black);
+    background-image: url(../images/6Reino-sob-as-Cinzas/fundo-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .menu-barras, .logo-iara {
@@ -56,13 +105,15 @@ h2 {
 h3 {
     color:#fce148;
     font-size: 2rem;
+    font-weight: 700;
 }
 
 p {
     font-size: 1.6rem;
+    font-weight: 600;
 }
 
-/* header ---------------------------*/
+/* header */
 
 header, main {
     margin:30px 10%;
@@ -86,6 +137,30 @@ nav {
     overflow: hidden;
 }
 
+.nav-btn {
+    border: 2px solid var(--color-cardfadein);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--color-fadedred);
+    transition: var(--transition);
+}
+
+.nav-btn:hover {
+    border: 2px solid var(--color-fadedred);
+    background-color: transparent;
+    transition: var(--transition);
+}
+
+.btn-noline:hover {
+    color: #ff4133;
+    transition: var(--transition);
+}
+
+.btn-noline, .nav.btn, a:hover {
+    color: var(--color-red);
+    transition: var(--transition);
+}
+
 .logo-iaragames {
     height: 100%;
 }
@@ -103,7 +178,7 @@ a {
     color: white;
 }
 
-/*----linhas divisoras do nav-----*/
+/* linhas divisoras do nav */
 .linha {
     border: 3px solid;
     height: 90%;
@@ -113,10 +188,10 @@ a {
 
 
 
-/* fim header ------------------------------*/
+/* fim header */
 
 
-/* main ------------------------------------*/
+/* main */
 
 main {
     height: 80%;
@@ -157,7 +232,7 @@ main {
     
 }
 
-.underline {
+.sideline {
     border: 5px solid;
     margin: 15px 50px;
     color: var(--color-yellow);
@@ -230,10 +305,10 @@ main {
     width: 12%;
 }
 
-/*fim main---------------------------*/
+/* fim main */
 
 
-/*top-info pagina de lista de jogos-----------*/
+/* top-info pagina de lista de jogos */
 .hero-content {
     display: flex;
 }
@@ -246,7 +321,7 @@ main {
 }
 
 .hero-section {
-    margin: 30px 5px 50px 50px ;
+    margin: 30px 5px 30px 50px ;
 }
 
 .hero-title {
@@ -277,17 +352,236 @@ main {
     justify-content: center;
 }
 
-/*top-info pagina de lista de jogos-----------*/
+/* top-info pagina de lista de jogos */
+
+
+/* cards da pagina lista de jogos */
+
+.jogo-lists {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 50px 40px;
+}
+
+.jogo-item {
+    background: linear-gradient(0deg,rgba(214, 192, 26, 1) 13%, rgba(222, 122, 16, 1) 94%);
+    color: var(--color-black);
+    border-radius: 8px;
+    height: 260px;
+    width: 300px;
+    padding: 15px;
+    margin: 15px ;
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: 2px 0px 20px 10px var(--color-black);
+}
+
+.card-jogo {
+    text-align: center;
+}
+
+.jogo-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 0px 20px 1px var(--color-black);
+
+}
+
+.nome-do-jogo {
+    margin: 0px 0px 15px;
+    color: var(--color-black);
+}
+
+.spotlight-do-jogo {
+    margin: 5px;
+}
+
+.btn-saiba-mais  {
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+    background-color: var(--color-black);
+    border-radius: 8px;
+}
+
+/* cards da pagina lista de jogos */
+
+
+/*hover dos cards*/
+
+.jogo-item:hover {
+    height: 400px;
+    transition: var(--transition);
+    box-shadow: 2px 0px 15px 0px var(--color-fadedorange);
+}
+
+.jogo-item:hover img {
+    transform: scale(0.6) translateY(-60px);
+    transition: var(--transition);
+}
+
+.jogo-item:hover h3 {
+    transform: translateY(-60px);
+    transition: var(--transition);
+}
+
+.jogo-item:hover p {
+    transform: translateY(-60px);
+    transition: var(--transition);
+}
+
+.jogo-item:hover .btn-saiba-mais {
+    transform: translateY(-60px);
+    transition: var(--transition);
+}
+
+.btn-saiba-mais:hover  {
+    background-color: var(--color-darkgreen);
+    color: var(--color-light);
+}
+
+.btn-saiba-mais:hover a {
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+/*hover dos cards*/
+
+/* cards da pagina lista de jogos */
+
+
+/*pagina do jogo*/ 
+
+.page-division {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content {
+    padding: 10px;
+}
+
+.game-content {
+    margin: 10px;
+    padding: 10px;
+}
+
+.game-img-container {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 70px 0px;
+}
+
+.game-image {
+    width: 280px;
+    height: 210px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 0px 20px 1px var(--color-black);
+}
+
+.game-image:hover {
+    box-shadow: 2px 0px 20px 1px var(--color-fadedorange);
+    transition: var(--transition);
+}
+
+.btn-bottom {
+
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+
+button {
+    width: 100%;
+    background-color:var(--color-yellow); 
+    color: var(--color-black);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 10px 15px;
+    margin: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.buy-box {
+    display: flex;
+    justify-content: right;
+}
+
+.buy-section {
+    border: 1px solid #ffdf2c;
+    width: 320px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.valor {
+    padding: 2px;
+    margin: 2px;
+}
+
+.valor-riscado {
+    margin: 1px;
+    text-decoration: line-through;
+    color: #ff0000;
+}
+
+.desconto {
+    padding: 1px;
+    margin: 1px;
+    color: #73ff00;
+}
+
+.btn-buy {
+    padding: 2px 6px 2px 2px;
+    margin: 2px;
+}
+
+.btn-add {
+    padding: 2px 6px 2px 2px;
+    margin: 2px;
+}
+
+.botao {
+    padding: 12px;
+    margin: 2px;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.botao:hover {
+    background-color: #73ff00;
+    transition: var(--transition);
+    color: #023800;
+
+}
+
+
+/*pagina do jogo*/ 
 
 
 
-/*cards da pagina lista de jogos----------------------------------*/
 
-    
 
-/*cards da pagina lista de jogos----------------------------------*/
-
-/*footer-----------------------------*/
+/* footer */
 
 footer {
     padding: 10px;
@@ -297,7 +591,7 @@ footer {
     color: #ffffff;
 }
 
-/*fim footer-------------------------*/
+/* fim footer */
 
 
 
@@ -312,7 +606,7 @@ footer {
         
     }
 
-    .underline { 
+    .sideline { 
         margin: 15px 10px;
     }
 
@@ -376,7 +670,7 @@ footer {
 }
 
 .menu-barras:hover {
-    background: linear-gradient(180deg,rgba(214, 192, 26, 0) 20%, rgba(216, 171, 23, 0.514) 20%, rgba(220, 140, 19, 0.527) 30%, rgba(207, 127, 23, 1) 75%, rgba(222, 122, 16, 1) 100%);
+    background: linear-gradient(180deg,rgba(214, 192, 26, 0) 20%, rgba(216, 171, 23, 0.514) 20%, rgba(220, 140, 19, 0.527) 30%, rgb(207, 121, 23) 75%, rgb(222, 174, 16) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +698,7 @@ footer {
 }
 
 .opção:hover {
-    color: #000000;
+    color: var(--color-red);
 }
 
 .logo-iara {
@@ -425,6 +719,14 @@ footer {
 }
 
 }
+
+@media (min-width: 1366px) {
+    .jogo-lists { 
+        margin: 50px 16%;
+    }
+}
+
+
 
 
 

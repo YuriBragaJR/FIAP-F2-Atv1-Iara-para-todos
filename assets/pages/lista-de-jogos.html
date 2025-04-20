@@ -9,39 +9,35 @@
 </head>
 <body>
 
-    <!---------------------------------------------------------- começo header---------------------------------------------------------->
+<!-- Barra de navegação -->
+<header>
+    <nav aria-label="Navegação principal">
+        <img onclick="location.href='../../index.html'" class="logo-iaragames" src="../images/logoiara.png" alt="Logo da Iara Games">
+        <ul>
+            <li class="btn-noline">
+                <a href="../../index.html" aria-label="Lista de jogos disponíveis na Iara Games">Home</a>
+            </li>
+            <li class="linha"></li>
+            <li class="btn-noline">
+                <a href="../../index.html#scroll" >Sobre</a>
+            </li>
+            <li class="linha"></li>
+            <li class="btn-noline">
+                <a href="../pages/contato.html" aria-label="Entre em contato com a Iara Games">Contato</a>
+            </li>
+            <li class="linha"></li>
+            <li class="nav-btn">
+                <a href="../pages/login.html" aria-label="Faça login na plataforma Iara Games">Login</a>
+            </li>
+            <li class="nav-btn">
+                <a href="../pages/cadastro.html" aria-label="Cadastre-se na plataforma Iara Games">Cadastre-se</a>
+            </li>
+        </ul>
+    </nav>        
+</header>
+<!-- Barra de navegação -->
 
-    <header>
-        <nav>
-            <img class="logo-iaragames" src="../images/logoiara.png" alt="Logo da Iara Games">
-            <ul>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="#">Contato  </a>
-                </li>
-                    <li class="linha"></li>
-                <li>
-                    <a href="./assets/pages/login.html">Login </i></a>
-                </li>
-                <li class="linha"></li>
-                <li>
-                    <a href="./assets/pages/cadastro.html">Cadastre-se</a>
-                </li>
-                
-            </ul>
-        </nav>        
-    </header>
-
-    <!----------------------------------------------------------- fim header ----------------------------------------------------------->
-
-<!------------------------------------ nav com menu de barras ----------------------------------->
+<!-- nav com menu de barras -->
 <div class="menu-barras">
     <div class="icone-container">
         <div class="icone-barras">
@@ -76,8 +72,9 @@
     <div class="logo-iara">
             <img class="logo-iaragames" src="../images/logoiara.png" alt="Logo da Iara Games">
     </div>
-<!------------------------------------nav com menu de barras ----------------------------------->
+<!-- nav com menu de barras -->
 
+<!-- Hero -->
     <main>
         <div class="hero-content">
             <section>
@@ -91,88 +88,117 @@
                     </section>
 
                     <section>
-                        <p class="text-info">Seja você um gamer casual ou um fã hardcore, sempre há novos títulos incríveis esperando para serem explorados. Na Iara Games, separamos uma lista com seis jogos que prometem horas de diversão e muita emoção.</p>
+                        <p class="text-info">Aqui, você encontra uma seleção variada de títulos incríveis para todos os gostos e estilos. Descubra lançamentos e explore jogos que prometem horas de diversão. Na Iara Games, nós transformamos sua paixão por games em experiências memoráveis.</p>
+                        <h2 class="hero-title">Entre e escolha seu próximo desafio! </h2>
+                        
                     </section>
-                    <section class="btn-content">
-                        <a href="#scroll" class="btn">Conhecer os Jogos</a> 
-                    </section> 
             </section>
             <section>
                     <li class="linha-vertical"></li>
             </section>                  
         </div>        
     </main>
+<!-- Fim Hero -->
 
-    <!----------------------------------------- Cards ----------------------------------------->
-    <h2 class="jogo-title" id="scroll"></h2>
+<!-- Cards -->
 
     <div class="jogo-lists">
-        <!-- item 1 -->
+<!-- item 1 -->
         <div class="jogo-item">
-            <a target="blank" href="./assets/pages/1ChronoTeiaGLT.html">
-            <img src="./assets/images/1ChronoTeia/chronochars (2).jpg" alt="foto da personagem de Chronoteia"></a>
-            <h3>ChronoTeia: GLT</h3>
-            <p>O tempo é um tecido delicado, uma vasta teia onde cada fio representa uma era, uma vida, uma decisão. Mas agora...</p>
-            <a target="blank" href="./assets/pages/1ChronoTeiaGLT.html" class="btn-card">Saiba mais</a>
-        </div>
-        <!-- fim do item 1 -->
+            <div class="card-jogo">
+                <a target="blank" href="../pages/1ChronoTeiaGLT.html">
+                <img class="jogo-img" src="../images/1ChronoTeia/chronochars (2).jpg" alt="foto da personagem de Chronoteia"></a>
+                <h3 class="nome-do-jogo">ChronoTeia: GLT</h3>
+                <p class="spolight-do-jogo">O tempo é um tecido delicado, uma vasta teia onde cada fio representa uma era, uma vida, uma decisão. Mas agora...</p>
+            </div>
 
-        <!-- item 2 -->
-        <div class="jogo-item">
-            <a target="_blank" href="./assets/pages/2HorizontesPerdidos.html">
-            <img src="./assets/images/2Horizontes-Perdidos/horizonteimg (4).png" alt="foto do personagem Horizontes perdidos"></a>
-            <h3>Horizontes Perdidos</h3>
-            <p>Você é Amara, uma cartógrafa destemida em um mundo fragmentado por uma antiga catástrofe mágica...</p>
-            <a target="_blank" href="./assets/pages/2HorizontesPerdidos.html" class="btn-card">Saiba mais</a>
+            <div class="btn-saiba-mais">
+                <a target="blank" href="./assets/pages/1ChronoTeiaGLT.html" class="btn-card">Saiba mais</a>
+            </div>
         </div>
-        <!-- fim do item 2 -->
-
-        <!-- item 3 -->
-        <div class="jogo-item">
-            <a target="_blank" href="./assets/pages/3EcosDoAbismo.html" >
-            <img src="./assets/images/3Ecos-do-Abismo/ecoimg (1).jpg" alt="foto personagem ecos do abismo"></a>
-            <h3>Ecos do Abismo</h3>
-            <p>No controle do renomado arqueólogo submarino Dr. Caio Torres, você é guiado por uma série de eventos que começam quando...</p>
-            <a target="_blank" href="./assets/pages/3EcosDoAbismo.html" class="btn-card">Saiba mais</a>
-        </div>
-        <!-- fim do item 3 -->
-
-        <!-- item 4 -->
-        <div class="jogo-item">
-            <a target="_blank" href="./assets/pages/4LendasEstrelarium.html">
-            <img src="./assets/images/4Lendas-de-Estrelarium/lendaschar.jpg" alt="foto de 3 personagens do jogo lendas de estrelarium"></a>
-            <h3>Lendas de Estrelarium</h3>
-            <p>Em um cosmos onde magia e ciência coexistem, o universo de Estrelarium é um mosaico de planetas encantados....</p>
-            <a target="_blank" href="./assets/pages/4LendasEstrelarium.html" class="btn-card">Saiba mais</a>
-        </div>
-        <!-- fim do item 4 -->
-
-        <!-- item 3 -->
-        <div class="jogo-item">
-            <a target="_blank" href="./assets/pages/5SonhosdeNeon.html">
-            <img src="./assets/images/5Sonhos-de-neon/neonchars.jpg" alt="foto do personagem do jogo sonhos de neon"></a>
-            <h3>Sonhos de Neón</h3>
-            <p>Em Neonpolis, uma megacidade vibrante, mas decadente, onde a chuva ácida nunca cessa e os hologramas iluminam os becos....</p>
-            <a target="_blank" href="./assets/pages/5SonhosdeNeon.html" class="btn-card">Saiba mais</a>
-        </div>
-        <!-- fim do item 3 -->
-
-        <!-- item 4 -->
-        <div class="jogo-item">
-            <a target="_blank" href="./assets/pages/6ReinoSobCinzas.html">
-            <img class="jogo-img" src="./assets/images/6Reino-sob-as-Cinzas/reinochars (7).png" alt="foto do personagem do jogo reino sob as cinzas" ></a>
-            <h3>Reinos Sob As Cinzas</h3>
-            <p>Décadas após um evento catastrófico em que múltiplos vulcões entraram em erupção simultaneamente, a Terra foi....</p>
-            <a target="_blank" href="./assets/pages/6ReinoSobCinzas.html" class="btn-card">Saiba mais</a>
-        </div>
-        <!-- fim do item 4 -->
 
         
+
+<!-- item 2 -->
+        <div class="jogo-item">
+            <div class="card-jogo">
+                <a target="_blank" href="../pages/2HorizontesPerdidos.html">
+                <img class="jogo-img" src="../images/2Horizontes-Perdidos/horizonteimg (4).png" alt="foto do personagem Horizontes perdidos"></a>
+                <h3 class="nome-do-jogo">Horizontes Perdidos</h3>
+                <p class="spolight-do-jogo">Você é Amara, uma cartógrafa destemida em um mundo fragmentado por uma antiga catástrofe mágica...</p>           
+            </div>
+        
+            <div class="btn-saiba-mais">
+                <a target="_blank" href="../pages/2HorizontesPerdidos.html" class="btn-card">Saiba mais</a>
+            </div>
+        </div>
+<!-- fim do item 2 -->
+
+<!-- item 3 -->
+        <div class="jogo-item">
+            <div class="card-jogo">
+                <a target="_blank" href="../pages/3EcosDoAbismo.html" >
+                <img class="jogo-img" src="../images/3Ecos-do-Abismo/ecoimg (1).jpg" alt="foto personagem ecos do abismo"></a>
+                <h3 class="nome-do-jogo">Ecos do Abismo</h3>
+                <p class="spolight-do-jogo">No controle do renomado arqueólogo submarino Dr. Caio Torres, você é guiado por uma série de eventos que começam...</p>
+            </div>
+        
+            <div class="btn-saiba-mais">
+                <a target="_blank" href="./assets/pages/3EcosDoAbismo.html" class="btn-card">Saiba mais</a>
+            </div>
+        </div>
+<!-- fim do item 3 -->
+
+<!-- item 4 -->
+        <div class="jogo-item">
+            <div class="card-jogo">
+                <a target="_blank" href="../pages/4LendasEstrelarium.html">
+                <img class="jogo-img" src="../images/4Lendas-de-Estrelarium/lendaschar.jpg" alt="foto de 3 personagens do jogo lendas de estrelarium"></a>
+                <h3 class="nome-do-jogo">Lendas de Estrelarium</h3>
+                <p class="spolight-do-jogo">Em um cosmos onde magia e ciência coexistem, o universo de Estrelarium é um mosaico de planetas encantados....</p>           
+            </div>
+        
+            <div class="btn-saiba-mais">
+                <a target="_blank" href="../pages/4LendasEstrelarium.html" class="btn-card">Saiba mais</a>
+            </div>
+        </div>
+<!-- fim do item 4 -->
+
+<!-- item 5 -->
+        <div class="jogo-item">
+            <div class="card-jogo">
+                <a target="_blank" href="../pages/5SonhosdeNeon.html">
+                <img class="jogo-img" src="../images/5Sonhos-de-neon/neonchars.jpg" alt="foto do personagem do jogo sonhos de neon"></a>
+                <h3 class="nome-do-jogo">Sonhos de Neón</h3>
+                <p class="spolight-do-jogo">Em Neonpolis, uma megacidade vibrante, mas decadente, onde a chuva ácida nunca cessa e os hologramas iluminam os....</p>
+            </div>
+        
+            <div class="btn-saiba-mais">
+                <a target="_blank" href="../pages/5SonhosdeNeon.html" class="btn-card">Saiba mais</a>
+            </div>
+        </div>
+<!-- fim do item 5 -->
+
+<!-- item 6 -->
+        <div class="jogo-item">
+            <div class="card-jogo">
+                <a target="_blank" href="../pages/6ReinoSobCinzas.html">
+                <img class="jogo-img" src="../images/6Reino-sob-as-Cinzas/reinochars (7).png" alt="foto do personagem do jogo reino sob as cinzas" ></a>
+                <h3 class="nome-do-jogo">Reinos Sob As Cinzas</h3>
+                <p class="spolight-do-jogo">Décadas após um evento catastrófico em que múltiplos vulcões entraram em erupção simultaneamente, a Terra foi....</p>
+            </div>
+        
+            <div class="btn-saiba-mais">
+                <a target="_blank" href="../pages/6ReinoSobCinzas.html" class="btn-card">Saiba mais</a>
+            </div>
+        </div>
 
     </div>
-    <!--------------------------------------- fim cards --------------------------------------->
-        
+<!-- fim do item 6 -->
 
+<!-- fim cards -->
+        
+<!-- Rodapé -->
     <footer>
 
         <p>Siga-nos nas redes sociais</p>
@@ -191,6 +217,6 @@
         <img class="logo-iaragames-footer" src="../images/IARA GAMES.png" alt="Logo da Iara Games do rodapé">
         <p>&copy; 2025 Iara Games. Todos os direitos reservados.</p>
     </footer>
-
+<!-- Rodapé -->
 </body>
 </html>
