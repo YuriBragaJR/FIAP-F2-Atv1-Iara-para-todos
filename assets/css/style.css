@@ -114,7 +114,6 @@ p {
 }
 
 /* header */
-
 header, main {
     margin:30px 10%;
 }
@@ -185,14 +184,10 @@ a {
     opacity: 70%;
     border-radius: 0px 20px 0px 20px ;
 }
-
-
-
 /* fim header */
 
 
 /* main */
-
 main {
     height: 80%;
     width: auto;
@@ -304,7 +299,6 @@ main {
 .logo-iaragames-footer {
     width: 12%;
 }
-
 /* fim main */
 
 
@@ -715,9 +709,7 @@ footer {
 .logo-iaragames {
     width: 200px;
     height: 50%;
-    
 }
-
 }
 
 @media (min-width: 1366px) {
