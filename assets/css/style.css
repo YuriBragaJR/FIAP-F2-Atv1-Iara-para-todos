@@ -11,7 +11,7 @@
 /* Variaveis */
 :root {
     --color-light: #ffffff;
-    --color-darkgreen: #3f6e00e1;
+    --color-darkgreen:  rgb(0, 134, 101);;
     --color-fadedyellow: #a1941aa2;
     --color-yellow: #d6c01a; 
     --color-lightyellow: #ffe77c;
@@ -429,12 +429,11 @@ main {
 
 .btn-saiba-mais:hover  {
     background-color: var(--color-darkgreen);
-    color: var(--color-light);
 }
 
 .btn-saiba-mais:hover a {
-    color: var(--color-black);
-    font-weight: 700;
+    color: var(--color-lightyellow);
+    font-weight: 600;
 }
 
 /*hover dos cards*/

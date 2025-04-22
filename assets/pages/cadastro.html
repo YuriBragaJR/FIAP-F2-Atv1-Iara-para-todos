@@ -15,20 +15,23 @@
             <form action="/enviar" method="post" aria-label="Criar nova conta na plataforma">
 <!-- Nome -->
                 <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required aria-required="true" aria-label="Digite seu nome completo">
+                <input type="text" id="nome" name="nome" required aria-required="true" aria-label="Digite seu nome completo" placeholder="Digite seu Nome Completo">
 <!-- Email -->
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required aria-required="true" aria-label="Digite seu endereço de e-mail">
+                <input type="email" id="email" name="email" required aria-required="true" aria-label="Digite seu endereço de e-mail" placeholder="Digite seu endereço de e-mail">
                 
 <!-- Senha -->
                 <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required aria-required="true" aria-label="Digite sua senha">
+                <input type="password" id="senha" name="senha" required aria-required="true" aria-label="Digite sua senha" placeholder="Digite sua senha">
                 
 <!-- Data de Nascimento -->
                 <label for="data-nascimento">Data de Nascimento:</label>
-                <input type="date" id="data-nascimento" name="data-nascimento" aria-label="Selecione sua data de nascimento">
+                <input type="date" id="data-nascimento" name="data-nascimento" required aria-required="true" aria-label="Selecione sua data de nascimento">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required aria-required="true" placeholder="(XX) XXXXX-XXXX" aria-label="Irforme o seu numero de telefone">
 <!-- Botões -->
-                <div>
+                <section>
                     <button type="button" onclick="location.href='../../index.html'" aria-label="Cancelar e voltar para a página inicial">Cancelar</button>
                     </button>
                     <button type="submit" aria-label="Enviar formulário de cadastro">Enviar</button>
