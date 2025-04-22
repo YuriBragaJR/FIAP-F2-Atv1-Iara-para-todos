@@ -17,6 +17,8 @@ Imagens
 
 As imagens possuem descrições adequadas através do atributo alt, permitindo que usuários com deficiência visual entendam o propósito ou contexto das imagens.
 
+Grid Layout nas imagens do jogo com responsividade para telas menores.
+
 Campos Obrigatórios
 Os campos de formulário identificados como obrigatórios utilizam o atributo required, acompanhado de aria-required, proporcionando uma experiência inclusiva e orientando o preenchimento correto.
 
