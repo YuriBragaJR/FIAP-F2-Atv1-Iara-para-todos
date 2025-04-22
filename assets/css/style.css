@@ -464,7 +464,7 @@ main {
 .game-img-container img {
     width: 100%;
     height: auto;
-    border-radius: 5px; /* Cantos arredondados (opcional) */
+    border-radius: 5px; 
 }
 
 .game-image:hover {
@@ -701,9 +701,9 @@ footer {
 
 .game-img-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Sempre 3 colunas */
-    grid-template-rows: repeat(1, auto); /* Sempre 2 linhas */
-    gap: 10px; /* Espaço entre as imagens */
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(1, auto); 
+    gap: 10px; 
     max-width: 800px;
     margin: 20px;
 }
