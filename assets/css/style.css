@@ -443,12 +443,6 @@ main {
 
 /*pagina do jogo*/ 
 
-.page-division {
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-}
-
 .page-content {
     padding: 10px;
 }
