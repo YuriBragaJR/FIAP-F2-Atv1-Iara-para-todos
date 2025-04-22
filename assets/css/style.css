@@ -22,7 +22,7 @@
     --color-yellowcard: #ffd000a8;
     --color-cardfadein: #ffd257;
     --color-fadedorange: #c74900;
-    --color-fundoheader: rgba(133, 168, 109, 0.37);
+    --color-fundoheader: rgba(42, 123, 155, 0.4);
     --transition: 0.5s;
 }
 
@@ -583,7 +583,7 @@ footer {
 
 @media (max-width: 768px) {
     .text-top {
-    width: 400px;
+    width: 280px;
     }
 
     .cards {
@@ -647,8 +647,8 @@ footer {
     height: 35px;
     width: 100px;
     position: absolute;
-    margin: 2px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
     justify-items: start;
     overflow: hidden;
     transition: 0.5s;
