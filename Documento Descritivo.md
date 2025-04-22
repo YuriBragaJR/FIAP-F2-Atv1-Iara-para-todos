@@ -35,13 +35,15 @@ Meta tags para controle de viewport garantem que os layouts funcionem em diferen
 
 # Formulário Acessível 
 
+* Os formulários serão encontrados nas abas da pagina inicial "Login", "Cadastre-se" e "Contato". Na pagina de "Login" também terá a opção para o formulário "Alterar Senha".*
+
 Rótulos Conectados a Campos de Entrada:- Cada campo <input> está associado a um <label> por meio do atributo for, garantindo que leitores de tela identifiquem corretamente o propósito de cada campo.
 
-Atributos de Acessibilidade nos Campos:
+# Atributos de Acessibilidade nos Campos:
 
 O uso de required combinado com aria-required="true" informa claramente que os campos são obrigatórios, ajudando tanto usuários com leitores de tela quanto outros.
 
-Placeholders Descritivos:
+# Placeholders Descritivos:
 
 No campo de data de nascimento, o placeholder orienta o usuário sobre o formato esperado.
 
@@ -51,7 +53,7 @@ Cada campo possui uma descrição específica para ajudar na compreensão (exemp
 
 
 
-Botões Funcionais
+# Botões Funcionais
 
 Os botões possuem aria-label que descrevem suas ações, como "Cancelar e voltar para a página inicial" e "Enviar formulário de cadastro".
 

@@ -41,10 +41,6 @@ body {
     font-size: 2rem;
 }
 
-.hero {
-    height: 100vh;
-}
-
 #ChronoTeia {
     background-color: var(--color-black);
     background-image: url(../images/1ChronoTeia/img-fundo.jpg);
@@ -105,17 +101,20 @@ h1 {
 h2 {
     color:#fce148;
     font-size: 2.5rem;
+    
 }
 
 h3 {
     color:#fce148;
     font-size: 2rem;
     font-weight: 700;
+    transition: var(--transition);
 }
 
 p {
     font-size: 1.6rem;
     font-weight: 600;
+    transition: var(--transition);
 }
 
 /* header */
@@ -208,14 +207,14 @@ main {
 }
 
 .sobre-nos  {
-    border: 10px solid var(--color-yellow);
-    padding: 10px 20px;
-    margin: 250px 5px 5px 5px;
-    width: 100%;
-    height: 100%;
+    background-color: #000000cc;
+    border: 1px solid var(--color-yellow);
+    padding: 30px 20px;
+    margin: 300px 0px 300px;
+    width: 70vw;
     font-weight: 500;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 5px;
     color: rgb(255, 255, 255);
     overflow: hidden;
     transition: 0.5s;
@@ -244,7 +243,7 @@ main {
 
 .cards {
     background: linear-gradient(0deg,rgba(214, 192, 26, 1) 13%, rgba(222, 122, 16, 1) 94%);
-    border-radius: 9px;
+    border-radius: 5px;
     height: 200px;
     padding: 15px;
     margin: 25px;
@@ -263,7 +262,7 @@ main {
 .game-img {
     width: 100%;
     height: 85%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .titulo-jogo {
@@ -355,7 +354,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 50px 40px;
+    margin: 50px 15%;
 }
 
 .jogo-item {
@@ -365,7 +364,7 @@ main {
     height: 260px;
     width: 300px;
     padding: 15px;
-    margin: 15px ;
+    margin: 15px;
     overflow: hidden;
     transition: var(--transition);
     box-shadow: 2px 0px 20px 10px var(--color-black);
@@ -398,6 +397,7 @@ main {
     text-align: center;
     background-color: var(--color-black);
     border-radius: 8px;
+    transition: var(--transition);
 }
 
 /* cards da pagina lista de jogos */
@@ -406,37 +406,38 @@ main {
 /*hover dos cards*/
 
 .jogo-item:hover {
-    height: 400px;
+-
     transition: var(--transition);
     box-shadow: 2px 0px 15px 0px var(--color-fadedorange);
 }
 
 .jogo-item:hover img {
-    transform: scale(0.6) translateY(-60px);
+    opacity: 10%;
     transition: var(--transition);
 }
 
 .jogo-item:hover h3 {
-    transform: translateY(-60px);
+    transform: translateY(-200px);
     transition: var(--transition);
 }
 
 .jogo-item:hover p {
-    transform: translateY(-60px);
+    transform: translateY(-200px);
     transition: var(--transition);
 }
 
 .jogo-item:hover .btn-saiba-mais {
-    transform: translateY(-60px);
+    transform: translateY(-200px);
     transition: var(--transition);
 }
 
 .btn-saiba-mais:hover  {
     background-color: var(--color-darkgreen);
+    transition: var(--transition);
 }
 
 .btn-saiba-mais:hover a {
-    color: var(--color-lightyellow);
+    color: var(--color-light);
     font-weight: 600;
 }
 
@@ -448,7 +449,8 @@ main {
 /*pagina do jogo*/ 
 
 .page-content {
-    padding: 10px;
+    padding: 10%;
+    justify-content: center;
 }
 
 #titulo-imagens-jogo {
@@ -460,7 +462,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, auto); 
-    gap: 10px; 
+    gap: 30px; 
     max-width: 800px;
     margin: 10px auto 50px;
     
@@ -663,7 +665,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 180px;
+    height: 200px;
     width: 100px;
     position: absolute;
     border-radius: 0px 0px 5px 5px ;

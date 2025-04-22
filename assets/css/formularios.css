@@ -35,7 +35,7 @@ body {
 
 form {
     background:  linear-gradient(0deg,rgba(214, 192, 26, 1) 13%, rgba(222, 122, 16, 1) 94%);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -80,7 +80,7 @@ input {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid var(--color-black);
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: var(--color-light);
 }
 
@@ -95,7 +95,7 @@ button {
     background-color: var(--color-black); 
     color: var(--color-light);
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: var(--transition);
