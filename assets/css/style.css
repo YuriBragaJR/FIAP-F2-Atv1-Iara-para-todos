@@ -22,6 +22,7 @@
     --color-yellowcard: #ffd000a8;
     --color-cardfadein: #ffd257;
     --color-fadedorange: #c74900;
+    --color-fundoheader: rgba(133, 168, 109, 0.37);
     --transition: 0.5s;
 }
 
@@ -124,7 +125,7 @@ header {
     width: auto;
     padding: 10px 40px;
     justify-items: center;
-    background: rgb(0, 69, 134);
+    background: var(--color-fundoheader);
     color: white;
 }
 
@@ -652,7 +653,7 @@ footer {
 }
 
 .menu-barras:hover {
-    background: rgb(0, 134, 101);
+    background: var(--color-fundoheader);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -685,7 +686,7 @@ footer {
 
 /* configuração de logo para telas menores */
 .logo-iara {
-    background: rgb(0, 134, 101);
+    background: var(--color-fundoheader);
     display: flex;
     justify-content: center;
 }
