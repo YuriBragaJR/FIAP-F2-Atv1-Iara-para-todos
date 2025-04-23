@@ -123,9 +123,9 @@ button:hover {
 }
 
 textarea {
-    width: 100%;
+    width: 93%;
     margin-bottom: 20px;
-    padding: 5px;
     resize: none;
+    padding: 10px;
 }
 
